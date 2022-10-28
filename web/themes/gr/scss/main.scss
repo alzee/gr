@@ -100,7 +100,7 @@ body{
                   display: block;
                 }
                 color: #FFFFFF;
-                background-image: url("../img/bg.png");
+                background-color: #0c4789;
                 h2, h5{
                   .zh{
                     color: #FFFFFF;
@@ -141,12 +141,12 @@ body{
                 @media (min-width: 851px){
                   display: block;
                 }
-                background: url("../img/bg2a.jpg");
+                background: url("../images/bg2a.jpg");
                 height: 515px;
                 padding-top: 4rem;
               }
               #bg2{
-                background: url("../img/bg2.png");
+                background: url("../images/bg2.png");
                 height: 277px;
                 background-repeat: no-repeat;
                 //width: 932px;
@@ -251,7 +251,7 @@ body{
             #contactus{
               margin-top: 3rem;
               padding: 2rem 0;
-              background: url("../img/bg3.jpg");
+              background: url("../images/bg3.jpg");
               .row{
                 max-width: 1290px;
                 margin: auto;
@@ -568,7 +568,7 @@ header#header{
   }
 }
 #block-yemianbiaoti-2{
-  background: url("../img/navbg.png");
+  background: url("../images/navbg.png");
   .content{
     padding: 2rem;
     h1{

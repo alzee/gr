@@ -1,24 +1,38 @@
 # Main theme library.
-global:
-  js:
-    js/gr.js: {}
+# global:
+#   js:
+#     js/gr.js: {}
+#   css:
+#     base:
+#       css/base/elements.css: {}
+#     component:
+#       css/components/block.css: {}
+#       css/components/breadcrumb.css: {}
+#       css/components/field.css: {}
+#       css/components/form.css: {}
+#       css/components/header.css: {}
+#       css/components/menu.css: {}
+#       css/components/messages.css: {}
+#       css/components/node.css: {}
+#       css/components/sidebar.css: {}
+#       css/components/table.css: {}
+#       css/components/tabs.css: {}
+#       css/components/buttons.css: {}
+#     layout:
+#       css/layouts/layout.css: {}
+#     theme:
+#       css/theme/print.css: { media: print }
+
+global-css:
+  version: VERSION
   css:
-    base:
-      css/base/elements.css: {}
-    component:
-      css/components/block.css: {}
-      css/components/breadcrumb.css: {}
-      css/components/field.css: {}
-      css/components/form.css: {}
-      css/components/header.css: {}
-      css/components/menu.css: {}
-      css/components/messages.css: {}
-      css/components/node.css: {}
-      css/components/sidebar.css: {}
-      css/components/table.css: {}
-      css/components/tabs.css: {}
-      css/components/buttons.css: {}
-    layout:
-      css/layouts/layout.css: {}
     theme:
-      css/theme/print.css: { media: print }
+      https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css: { type: external, minified: true }
+      css/main.css: {}
+
+global-js:
+  version: VERSION
+  js:
+    https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js: { type: external, minified: true }
+    js/initSwiper.js: {}
+    js/main.js: {}

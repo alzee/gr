@@ -1,0 +1,8 @@
+# Schema for the configuration files of the gr theme.
+gr.settings:
+  type: theme_settings
+  label: 'gr settings'
+  mapping:
+    font_size:
+      type: integer
+      label: Font size
